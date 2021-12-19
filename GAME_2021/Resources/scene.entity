@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<entity version="2">
+    <settings>
+        <linkedResourcePools />
+        <layers />
+    </settings>
+    <root polystring:id="" layerID="0" polystring:tags="" type="Entity" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.000000" pY="0.000000" pZ="0.000000" bbX="0.000000" bbY="0.000000" bbZ="0.001000">
+        <children>
+            <child polystring:id="" layerID="0" polystring:tags="" type="ScenePrimitive" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="0.000000" pY="0.114524" pZ="0.000000" bbX="1.000000" bbY="1.000000" bbZ="1.000000">
+                <ScenePrimitive type="0" p1="1.000000" p2="1.000000" p3="1.000000" p4="0.000000" p5="0.000000" />
+                <SceneMesh alphaTest="false" backfaceCulled="true" sendBoneMatricesToMaterial="false" material="Default">
+                    <shader_options>
+                        <shader>
+                            <textures />
+                            <params />
+                        </shader>
+                    </shader_options>
+                </SceneMesh>
+            </child>
+            <child polystring:id="" layerID="0" polystring:tags="" type="SceneLight" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="0.000000" rY="0.000000" rZ="0.000000" rW="1.000000" pX="-0.902726" pY="2.482590" pZ="1.878480" bbX="0.100000" bbY="0.100000" bbZ="0.100000">
+                <SceneLight type="0" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" scR="1.000000" scG="1.000000" scB="1.000000" scA="1.000000" intensity="10.000000" importance="0" cAtt="1.000000" lAtt="1.000000" qAtt="1.000000" />
+            </child>
+            <child id="main_camera" layerID="0" polystring:tags="" type="Camera" cR="1.000000" cG="1.000000" cB="1.000000" cA="1.000000" blendMode="0" sX="1.000000" sY="1.000000" sZ="1.000000" rX="-0.253310" rY="0.247282" rZ="0.067149" rW="0.932832" pX="1.909700" pY="2.096322" pZ="3.586590" bbX="0.000000" bbY="0.000000" bbZ="0.001000">
+                <Camera exposure="1.000000" nearClip="1.000000" farClip="1000.000000" ortho="false" fov="45.000000" />
+            </child>
+        </children>
+    </root>
+</entity>
